@@ -1,0 +1,31 @@
+.tabla{
+    display: flex;
+    border-top: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: space-around;
+    color: white;
+}
+
+.lugar-tabla{
+    background-color: rgb(117, 117, 216);
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+}
+
+.articulo{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Calibri';
+    transition: all 1s;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+.carrito{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
