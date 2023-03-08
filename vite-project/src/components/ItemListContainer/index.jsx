@@ -1,4 +1,4 @@
-function ItemListContainer ({greeting}){
+function ItemListContainer (){
     return (
     <div>
         <p>Hola mundo</p>

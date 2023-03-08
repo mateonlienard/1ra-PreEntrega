@@ -1,6 +1,6 @@
 import './navbar.css';
-import './Carrito'
-import Carrito from './Carrito';
+import './CartWidget'
+import CartWidget from './CartWidget';
 
 function NavBar(){
     return (
@@ -12,7 +12,7 @@ function NavBar(){
                             <li class='articulo' href="monitores.html">Monitores</li>
                             <li class='articulo' href="televisores.html">Televisores</li>
                             <li class='articulo' href="contacto.html">Contactanos!</li>
-                            <Carrito />
+                            <CartWidget />
                         </ul>
                     </nav>
     )
