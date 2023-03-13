@@ -24,8 +24,3 @@ a:hover{
     transform: scale(1.1);
 }
 
-.carrito{
-    display: flex;
-    align-items: flex-end;
-    color: white;
-}
