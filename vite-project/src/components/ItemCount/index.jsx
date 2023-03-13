@@ -13,7 +13,7 @@ function ItemCount () {
 
     return (
         <div>
-            <button onClick={restar}>-</button><p>{numero}</p><button onClick={sumar}>+</button>
+            <p><button onClick={restar}>-</button>{numero}<button onClick={sumar}>+</button></p>
         </div>
     )
 }
