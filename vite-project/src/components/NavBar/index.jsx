@@ -5,12 +5,12 @@ function NavBar(){
     return (
                     <nav class="lugar-tabla">
                         <ul class="tabla">
-                            <li class='articulo' href="index.html">Inicio</li>
-                            <li class='articulo' href="ratones.html">Ratones</li>
-                            <li class='articulo' href="auriculares.html">Auriculares</li>
-                            <li class='articulo' href="monitores.html">Monitores</li>
-                            <li class='articulo' href="televisores.html">Televisores</li>
-                            <li class='articulo' href="contacto.html">Contactanos!</li>
+                            <li class='articulo'><a href="index.html">Inicio</a></li>
+                            <li class='articulo'><a href="ratones.html">Ratones</a></li>
+                            <li class='articulo'><a href="auriculares.html">Auriculares</a></li>
+                            <li class='articulo'><a href="monitores.html">Monitores</a></li>
+                            <li class='articulo'><a href="televisores.html">Televisores</a></li>
+                            <li class='articulo'><a href="contacto.html">Contactanos!</a>!</li>
                             <CartWidget />
                         </ul>
                     </nav>
